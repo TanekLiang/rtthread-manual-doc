@@ -31,7 +31,7 @@ RT-Thread的设备模型是建立在内核对象模型基础之上的。在第4�
 ~~~{.c}
 struct rt_device
 {
-  struct rt_object parent;
+  	struct rt_object parent;
 
 	/* 设备类型 */
 	enum rt_device_class_type type;
